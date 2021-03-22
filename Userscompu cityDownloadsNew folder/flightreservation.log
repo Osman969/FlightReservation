@@ -1,0 +1,68 @@
+2020-05-03 17:29:09.834  INFO 102236 --- [main] c.e.f.FlightreservationApplication       : Starting FlightreservationApplication on DESKTOP-N01AM1U with PID 102236 (C:\STS WORKPLACE\flightreservation\target\classes started by compu city in C:\STS WORKPLACE\flightreservation)
+2020-05-03 17:29:09.836  INFO 102236 --- [main] c.e.f.FlightreservationApplication       : No active profile set, falling back to default profiles: default
+2020-05-03 17:29:10.494  INFO 102236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-03 17:29:10.571  INFO 102236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69ms. Found 4 JPA repository interfaces.
+2020-05-03 17:29:11.058  INFO 102236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-03 17:29:11.072  INFO 102236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-03 17:29:11.072  INFO 102236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-03 17:29:11.390  INFO 102236 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-03 17:29:11.398  INFO 102236 --- [main] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring embedded WebApplicationContext
+2020-05-03 17:29:11.399  INFO 102236 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1527 ms
+2020-05-03 17:29:11.501  INFO 102236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-03 17:29:11.791  INFO 102236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-03 17:29:11.840  INFO 102236 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-03 17:29:11.902  INFO 102236 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-03 17:29:12.024  INFO 102236 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-03 17:29:12.121  INFO 102236 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-05-03 17:29:12.630  INFO 102236 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-03 17:29:12.637  INFO 102236 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-03 17:29:13.072  WARN 102236 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-03 17:29:13.181  INFO 102236 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-03 17:29:13.243  INFO 102236 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-05-03 17:29:13.556  INFO 102236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2020-05-03 17:29:13.558  INFO 102236 --- [main] c.e.f.FlightreservationApplication       : Started FlightreservationApplication in 4.056 seconds (JVM running for 4.773)
+2020-05-03 17:29:24.490  INFO 102236 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-03 17:29:24.491  INFO 102236 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-03 17:29:24.496  INFO 102236 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-05-03 17:29:24.513  INFO 102236 --- [http-nio-8080-exec-2] c.e.f.controllers.UserController         : Inside showLoginPage()
+2020-05-03 17:29:25.052  WARN 102236 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [159] milliseconds.
+2020-05-03 17:29:32.872  INFO 102236 --- [http-nio-8080-exec-4] c.e.f.controllers.UserController         : Inside login() and the email is: elhagez@gmail.com
+2020-05-03 17:31:46.316  INFO 102236 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-05-03 17:31:46.319  INFO 102236 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-03 17:31:46.320  INFO 102236 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-03 17:31:46.322  INFO 102236 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-03 17:31:46.331  INFO 102236 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-05-03 17:31:54.419  INFO 102652 --- [main] c.e.f.FlightreservationApplication       : Starting FlightreservationApplication on DESKTOP-N01AM1U with PID 102652 (C:\STS WORKPLACE\flightreservation\target\classes started by compu city in C:\STS WORKPLACE\flightreservation)
+2020-05-03 17:31:54.422  INFO 102652 --- [main] c.e.f.FlightreservationApplication       : No active profile set, falling back to default profiles: default
+2020-05-03 17:31:54.975  INFO 102652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-03 17:31:55.042  INFO 102652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59ms. Found 4 JPA repository interfaces.
+2020-05-03 17:31:55.476  INFO 102652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-03 17:31:55.484  INFO 102652 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-03 17:31:55.484  INFO 102652 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-03 17:31:55.783  INFO 102652 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-03 17:31:55.793  INFO 102652 --- [main] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring embedded WebApplicationContext
+2020-05-03 17:31:55.793  INFO 102652 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1323 ms
+2020-05-03 17:31:55.896  INFO 102652 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-03 17:31:56.173  INFO 102652 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-03 17:31:56.219  INFO 102652 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-03 17:31:56.277  INFO 102652 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-03 17:31:56.383  INFO 102652 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-03 17:31:56.481  INFO 102652 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-05-03 17:31:57.155  INFO 102652 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-03 17:31:57.163  INFO 102652 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-03 17:31:57.643  WARN 102652 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-03 17:31:57.784  INFO 102652 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-03 17:31:57.843  INFO 102652 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-05-03 17:31:58.143  INFO 102652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2020-05-03 17:31:58.145  INFO 102652 --- [main] c.e.f.FlightreservationApplication       : Started FlightreservationApplication in 4.042 seconds (JVM running for 4.835)
+2020-05-03 17:32:01.070  INFO 102652 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-03 17:32:01.070  INFO 102652 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-03 17:32:01.076  INFO 102652 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-05-03 17:32:01.095  INFO 102652 --- [http-nio-8080-exec-1] c.e.f.controllers.UserController         : Inside showLoginPage()
+2020-05-03 17:32:01.636  WARN 102652 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [161] milliseconds.
+2020-05-03 17:32:06.832  INFO 102652 --- [http-nio-8080-exec-2] c.e.f.controllers.UserController         : Inside login() and the email is: elhagez@gmail.com
+2020-05-03 17:32:36.879  INFO 102652 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-05-03 17:32:36.883  INFO 102652 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-03 17:32:36.885  INFO 102652 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-03 17:32:36.887  INFO 102652 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-03 17:32:36.897  INFO 102652 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
